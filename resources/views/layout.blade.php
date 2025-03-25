@@ -60,13 +60,10 @@
                         <span>Our Services</span>
                         <i class="bi bi-chevron-down"></i></a>
                         <ul>
-
-                            <li><a href="web.html">Website Development</a></li>
-                            <li><a href="software.html">Software Development</a></li>
-                            <li><a href="web-application.html">Web Application</a></li>
-                            <li><a href="android.html">Android Development</a></li>
-                            <li><a href="ios.html">IOS Development</a></li>
-                            <li><a href="graphic.html">Graphic Designing</a></li>
+                            <li><a href="javasctipt:void(0)">Data Science & ML</a></li>
+                            <li><a href="javasctipt:void(0)">Data Collection</a></li>
+                            <li><a href="javasctipt:void(0)">Data Analyst</a></li>
+                            <li><a href="javasctipt:void(0)">Data Management</a></li>
                         </ul>
                     </li>
                     <li><a class="nav-link scrollto " href="{{ route('portfolio') }}">Portfolio</a></li>
@@ -90,43 +87,34 @@
                         <div class="footer-image">
                             <a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo/logo.png') }}"></a>
                         </div>
-                        <h4><b>About Company</b></h4>
+                        <h4><b>About Me</b></h4>
                         <p>
-                            Our company was founded in 2019 by a group of friends who shared a passion for software
-                            engineering. At the time, they were all working for different companies, but they shared a
-                            common goal: to create a company that would provide businesses with the tools they need to
-                            succeed online. They saw the potential of the internet and wanted to help businesses take
-                            advantage of it.
+                            My name is Shahrukh Shamshad, and I am a passionate data storyteller dedicated to transforming complex datasets into clear, actionable insights. I specialize in analyzing trends, visualizing patterns, and crafting intuitive narratives that drive strategic decision-making. Whether decoding customer behavior, optimizing business processes, or enhancing data-driven strategies, I thrive on turning raw data into meaningful business solutions.
                         </p>
                     </div>
                     <div class="col-md-4">
                         <div class="footer-info">
                             <h3>Visit</h3>
                             <p>
-                                <strong>Address:</strong> Office No # 401, Floor 9th,<br> Dawood Mart, Main Auto Bhan Road, Hyderabad, Pakistan<br><br>
-                                <strong>Phone:</strong> (+92) 3434718990<br><br>
-                                <strong>Email:</strong> <a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="bdd4d3dbd2fddcc7ced2d1c8c9d4d2d3cecdd693ded2d0">[email&#160;protected]</a>
-                                <br>
-                                <a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="5c3a3d35262d3d353137343d32351c3b313d3530723f3331">[email&#160;protected]</a>
+                                <strong>Address:</strong> Plot 671, Sector 4 Hanifabad,<br> Karachi, 75800, Pakistan<br><br>
+                                <strong>Phone:</strong> +92 (303) 4819561<br><br>
+                                <strong>Email:</strong> <a href="email:shahruukh.shamshad3@gmail.com">shahruukh.shamshad3@gmail.com</a>
                             </p>
                         </div>
                     </div>
                     <div class="col-md-4 footer-links footer-info">
                         <h3>Social Links</h3>
                         <div class="social-links mt-3">
-                            <a href="https://twitter.com/AZ_SolutionsPk" class="twitter">
-                                <i class="bx bxl-twitter"></i>
-                            </a>Twitter<br><br>
-                            <a href="https://www.facebook.com/azsolutionsofficial" class="facebook">
+                            <a href="https://www.facebook.com/profile.php?id=100004989672801v" class="facebook">
                                 <i class="bx bxl-facebook"></i>
                             </a>Facebook<br><br>
-                            <a href="https://www.linkedin.com/company/azsolutions0/mycompany/" class="linkedin">
+                            <a href="https://www.linkedin.com/in/shahrukhshamshad" class="linkedin">
                                 <i class="bx bxl-linkedin"></i>
                             </a>Linkedin<br><br>
-                            <a href="https://www.instagram.com/azsolutionsofficial/" class="instagram">
+                            <a href="https://www.instagram.com/shahrukh999643/" class="instagram">
                                 <i class="bx bxl-instagram"></i>
                             </a>Instagram<br><br>
-                            <a href="https://www.youtube.com/channel/UC-xLJpZBTi32nMSotvcaevw" class="google-plus">
+                            <a href="http://www.youtube.com/@ShahRukhShamshad" class="google-plus">
                                 <i class="bx bxl-youtube"></i>
                             </a>Youtube<br><br>
 

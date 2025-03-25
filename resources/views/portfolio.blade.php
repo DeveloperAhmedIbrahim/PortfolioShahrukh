@@ -425,7 +425,9 @@
                             data-aos-delay="300">
                             <div class="icon-box">
                                 <div class="section-title">
-                                    <p>call to <span>action</span></p>
+                                    <a href="https://github.com/ShahrukhShamshad" target="_blank">
+                                        <p>call to <span>action</span></p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -439,13 +441,8 @@
                             data-aos-delay="300">
                             <div class="let">
                                 <p>
-                                    <strong>Phone:</strong> (+92) 3434718990<br>
-                                    <strong>Email:</strong> <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
-                                        data-cfemail="40292e262f00213a332f2c3534292f2e33302b6e232f2d">[email&#160;protected]</a>
-                                    <br>
-                                    <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
-                                        data-cfemail="5d3b3c34272c3c343036353c33341d3a303c3431733e3230">[email&#160;protected]</a>
-                                </p>
+                                    <strong>Phone:</strong> +92 (303) 4819561<br>
+                                    <strong>Email:</strong> <a href="email:shahruukh.shamshad3@gmail.com">shahruukh.shamshad3@gmail.com</a>                                </p>
                                 <a href="{{ route('contact') }}" class="get-started-btn scrollto">Let's Start</a>
                             </div>
                         </div>

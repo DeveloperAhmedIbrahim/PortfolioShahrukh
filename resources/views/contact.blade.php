@@ -37,17 +37,13 @@
                         <div class="email">
                             <i class="bi bi-envelope"></i>
                             <h4>Email:</h4>
-                            <p> <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
-                                    data-cfemail="89e0e7efe6c9e8f3fae6e5fcfde0e6e7a7eae6e4">[email&#160;protected]</a>
-                                <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
-                                    data-cfemail="c8aea9a1b2b9a9a1a5a3a0a9a6a188afa5a9a1a4e6aba7a5">[email&#160;protected]</a>
-                            </p>
+                            <p> <a href="email:shahruukh.shamshad3@gmail.com">shahruukh.shamshad3@gmail.com</a></p>                            </p>
                         </div>
 
                         <div class="phone">
                             <i class="bi bi-phone"></i>
                             <h4>Call:</h4>
-                            <p>(+92) 3434718990</p>
+                            <p>+92 (303) 4819561</p>
                         </div>
 
                     </div>

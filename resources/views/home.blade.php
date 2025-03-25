@@ -3,65 +3,12 @@
 @section('content')
     <section id="hero" class="d-flex align-items-center justify-content-center">
         <div class="container" data-aos="fade-up">
-
-            <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-                <div class="col-xl-6 col-lg-8">
-                    <h1>Fastest Way To <span>Achieve Success</span>.</h1>
+            <div class="row text-start" data-aos="fade-up" data-aos-delay="150">
+                <div class="col-xl-8 col-lg-8">
+                    <h1><span class="h2">Hello, This is</span><br>Shahrukh Shamshad<br><span>Data Analyst | Freelance</span>.</h1>
 
                 </div>
             </div>
-            <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
-                <div class="col-xl-2 col-md-4">
-                    <a href="web.html">
-                        <div class="icon-box">
-                            <div class="web"><img src="{{ asset("assets/img/web.png") }}"></div>
-                            <h3><a href="#">Web Development</a></h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xl-2 col-md-4">
-                <a href="software.html">
-                    <div class="icon-box">
-                        <div class="web"><img src="{{ asset("assets/img/software.png") }}"></div>
-                        <h3><a href="software.html">Software Development</a></h3>
-                </a>
-            </div>
-        </div>
-        <div class="col-xl-2 col-md-4">
-            <a href="graphic.html">
-                <div class="icon-box">
-                    <div class="web"><img src="{{ asset("assets/img/graphic.png") }}"></div>
-                    <h3><a href="graphic.html">Graphic Designing</a></h3>
-            </a>
-        </div>
-        </div>
-        <div class="col-xl-2 col-md-4">
-            <a href="web-application.html">
-                <div class="icon-box">
-                    <a href="web-application.html">
-                        <div class="web"><img src="{{ asset("assets/img/desktop.png") }}"></div>
-                        <h3><a href="web-application.html">Web Application</a></h3>
-                    </a>
-                </div>
-        </div>
-        <div class="col-xl-2 col-md-4">
-            <div class="icon-box">
-                <a href="android.html">
-                    <div class="web"><img src="{{ asset("assets/img/android.png") }}"></div>
-                    <h3><a href="android.html">Android Development</a></h3>
-                </a>
-            </div>
-        </div>
-        <div class="col-xl-2 col-md-4">
-            <a href="ios.html">
-                <div class="icon-box">
-                    <div class="web"><img src="{{ asset("assets/img/ios.png") }}"></div>
-                    <h3><a href="ios.html">IOS Development</a></h3>
-            </a>
-        </div>
-        </div>
-        </div>
-
         </div>
     </section>
 
@@ -77,22 +24,10 @@
                         data-aos-delay="100">
                         <div class="section-title">
                             <h2>About Us</h2>
-                            <p>Who We Are</p>
+                            <p>Who Am I?</p>
                         </div>
                         <p class="about-p">
-                            Have you ever wondered about the story behind a company? What inspired its founders to
-                            create
-                            it, and what challenges they faced along the way? Well, today we invite you to discover the
-                            fascinating tale behind our own company. As a team of highly skilled professionals in the
-                            field
-                            of software engineering, we have come a long way since our humble beginnings. We started out
-                            with a simple vision: to provide businesses with the tools and expertise they need to thrive
-                            in
-                            the online world. And through hard work, dedication, and a passion for innovation, we have
-                            grown
-                            into a leading force in our industry. So if you're curious about how we got to where we are
-                            today, join us as we take a journey through the story of our company.
-
+                            My name is <b>Shahrukh Shamshad</b>, and I am a passionate data storyteller dedicated to transforming complex datasets into clear, actionable insights. I specialize in analyzing trends, visualizing patterns, and crafting intuitive narratives that drive strategic decision-making. Whether decoding customer behavior, optimizing business processes, or enhancing data-driven strategies, I thrive on turning raw data into meaningful business solutions.
                         </p>
                         <a href="{{ route('about') }}" class="about-a">Read More</a>
 
@@ -107,84 +42,83 @@
 
                 <div class="section-title">
                     <h2>Services</h2>
-                    <p>We Provide The Best <span>Services</span></p>
+                    <p>I Provide The Best <span>Services</span></p>
                 </div>
 
                 <div class="row">
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon-box">
-
                             <div class="icon"><img src="{{ asset("assets/img/service/6636_profile.jpg") }}"></div>
-                            <h4><a href="web.html">Web Development</a></h4>
-                            <p>At AZ Solutions, we focus on web design and our developer�s help businesses seize thei
-                                digital footprint with optimized user interaction and user engagement.</p>
-
+                            <h4><a href="javascript:void(0)">Data Science & ML</a></h4>
+                            <p>
+                                <ul class="text-start">
+                                    <li>Data Science & ML</li>
+                                    <li>Machine Learning</li>
+                                    <li>Computer Vision</li>
+                                    <li>NLP</li>
+                                    <li>Deep Learning</li>
+                                    <li>Generative Models</li>
+                                </ul>
+                            </p>
                         </div>
                     </div>
 
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon-box">
 
                             <div class="icon"><img src="{{ asset("assets/img/service/9916_profile.jpg") }}"></div>
-                            <h4><a href="web.html">Software Development</a></h4>
-                            <p>Software development refers to a set of computer science activities dedicated to the
-                                process of creating, designing, deploying and supporting software.</p>
-
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="icon-box">
-
-                            <div class="icon"><img src="{{ asset("assets/img/service/7709_profile.jpg") }}"></div>
-                            <h4><a href="web.html">Android Development</a></h4>
-                            <p>AZ Solutions create apps for a variety of reasons. Developers choose to develop for
-                                Android in order to reach the majority of mobile device users.</p>
-
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="icon-box">
-
-                            <div class="icon"><img src="{{ asset("assets/img/service/1237_profile.jpg") }}"></div>
-                            <h4><a href="web.html">Graphic Designing</a></h4>
-                            <p>We merge graphic design elements and human-centric approaches to amplify your brand's
-                                persona. Harness the power of our creative junkies for unforgettable results.</p>
-
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                        data-aos-delay="100">
-                        <div class="icon-box">
-
-                            <div class="icon"><img src="{{ asset("assets/img/service/5043_profile.jpg") }}"></div>
-                            <h4><a href="web.html">IOS Development</a></h4>
-                            <p>iOS development is the process of creating applications for Apple�s mobile operating
-                                system�the operating system used by the iPhone and iPod Touch.</p>
-
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                        data-aos-delay="100">
-                        <div class="icon-box">
-
-                            <div class="icon"><img src="{{ asset("assets/img/service/2170_service.jpg") }}"></div>
-                            <h4><a href="web.html">Web Application</a></h4>
-                            <p>Web applications serve distinct purposes based on their execution and delivery methods.
+                            <h4><a href="javascript:void(0)">Data Collection</a></h4>
+                            <p>
+                                <ul class="text-start">
+                                    <li>Data Entry</li>
+                                    <li>Data Scraping</li>
+                                    <li>Data Typing</li>
+                                    <li>Data Formatting</li>
+                                    <li>Data Cleaning</li>
+                                    <li>Data Enrichment</li>
+                                </ul>
                             </p>
 
                         </div>
                     </div>
 
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon-box">
+
+                            <div class="icon"><img src="{{ asset("assets/img/service/7709_profile.jpg") }}"></div>
+                            <h4><a href="javascript:void(0)">Data Analyst</a></h4>
+                            <p>
+                                <ul class="text-start">
+                                    <li>Data Visualization</li>
+                                    <li>Data Tagging & Annotation</li>
+                                    <li>Data Analytics</li>
+                                    <li>Dashboard</li>
+                                </ul>
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon-box">
+
+                            <div class="icon"><img src="{{ asset("assets/img/service/1237_profile.jpg") }}"></div>
+                            <h4><a href="javascript:void(0)">Data Managment</a></h4>
+                            <p>
+                                <ul class="text-start">
+                                    <li>Data Processing</li>
+                                    <li>Data Engineering</li>
+                                    <li>Databases</li>
+                                    <li>Data Governance & Protection</li>
+                                </ul>
+                            </p>
+
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -198,7 +132,9 @@
                             data-aos-delay="300">
                             <div class="icon-box">
                                 <div class="section-title">
-                                    <p>call to <span>action</span></p>
+                                    <a href="https://github.com/ShahrukhShamshad" target="_blank">
+                                        <p>call to <span>action</span></p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -212,13 +148,8 @@
                             data-aos-delay="300">
                             <div class="let">
                                 <p>
-                                    <strong>Phone:</strong> (+92) 3434718990<br>
-                                    <strong>Email:</strong> <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
-                                        data-cfemail="acc5c2cac3eccdd6dfc3c0d9d8c5c3c2dfdcc782cfc3c1">[email&#160;protected]</a>
-                                    <br>
-                                    <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
-                                        data-cfemail="7315121a0902121a1e181b121d1a33141e121a1f5d101c1e">[email&#160;protected]</a>
-                                </p>
+                                    <strong>Phone:</strong> +92 (303) 4819561<br>
+                                    <strong>Email:</strong> <a href="email:shahruukh.shamshad3@gmail.com">shahruukh.shamshad3@gmail.com</a>                                </p>
                                 <a href="{{ route('contact') }}" class="get-started-btn scrollto">Let's Start</a>
                             </div>
                         </div>
@@ -653,7 +584,9 @@
                             data-aos-delay="300">
                             <div class="icon-box">
                                 <div class="section-title">
-                                    <p>call to <span>action</span></p>
+                                    <a href="https://github.com/ShahrukhShamshad" target="_blank">
+                                        <p>call to <span>action</span></p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -667,13 +600,8 @@
                             data-aos-delay="300">
                             <div class="let">
                                 <p>
-                                    <strong>Phone:</strong> (+92) 3434718990<br>
-                                    <strong>Email:</strong> <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
-                                        data-cfemail="82ebece4edc2e3f8f1edeef7f6ebedecf1f2e9ace1edef">[email&#160;protected]</a>
-                                    <br>
-                                    <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
-                                        data-cfemail="503631392a2131393d3b38313e3910373d31393c7e333f3d">[email&#160;protected]</a>
-                                </p>
+                                    <strong>Phone:</strong> +92 (303) 4819561<br>
+                                    <strong>Email:</strong> <a href="email:shahruukh.shamshad3@gmail.com">shahruukh.shamshad3@gmail.com</a>                                </p>
                                 <a href="{{ route('home') }}" class="get-started-btn scrollto">Let's Start</a>
                             </div>
                         </div>

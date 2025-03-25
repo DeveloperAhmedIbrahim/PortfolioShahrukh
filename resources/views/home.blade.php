@@ -146,10 +146,11 @@
                         </div>
                         <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
                             data-aos-delay="300">
-                            <div class="let">
+                            <div>
                                 <p>
-                                    <strong>Phone:</strong> +92 (303) 4819561<br>
-                                    <strong>Email:</strong> <a href="email:shahruukh.shamshad3@gmail.com">shahruukh.shamshad3@gmail.com</a>                                </p>
+                                    <strong>+92 (303) 4819561</strong> <br>
+                                    <a href="mail:shahruukh.shamshad3@gmail.com">shahruukh.shamshad3@gmail.com</a>
+                                </p>
                                 <a href="{{ route('contact') }}" class="get-started-btn scrollto">Let's Start</a>
                             </div>
                         </div>
@@ -598,11 +599,12 @@
                         </div>
                         <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
                             data-aos-delay="300">
-                            <div class="let">
+                            <div>
                                 <p>
-                                    <strong>Phone:</strong> +92 (303) 4819561<br>
-                                    <strong>Email:</strong> <a href="email:shahruukh.shamshad3@gmail.com">shahruukh.shamshad3@gmail.com</a>                                </p>
-                                <a href="{{ route('home') }}" class="get-started-btn scrollto">Let's Start</a>
+                                    <strong>+92 (303) 4819561</strong> <br>
+                                    <a href="mail:shahruukh.shamshad3@gmail.com">shahruukh.shamshad3@gmail.com</a>
+                                </p>
+                                <a href="{{ route('contact') }}" class="get-started-btn scrollto">Let's Start</a>
                             </div>
                         </div>
 

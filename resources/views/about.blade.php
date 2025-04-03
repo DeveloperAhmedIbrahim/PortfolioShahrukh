@@ -1,343 +1,512 @@
 @extends('layout')
 @section('title', 'About')
 @section('content')
-    <section id="about-us" class="d-flex align-items-center justify-content-center">
-        <div class="container" data-aos="fade-up">
-
-            <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-                <div class="col-xl-6 col-lg-8">
-                    <h1>ABOUT <span>US</span></h1>
-                    <div class="section-title">
-                        <h2></h2>
-
+    <!-- Breadcrumb Area Start -->
+    <div class="breadcrumb-area breadcrumb-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-inner text-center">
+                        <h1 class="title split-collab">About Me</h1>
+                        <ul class="page-list">
+                            <li class="tmp-breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
+                            <li class="icon"><i class="fa-solid fa-angle-right"></i></li>
+                            <li class="tmp-breadcrumb-item active">About Me</li>
+                        </ul>
                     </div>
-
-
                 </div>
             </div>
-
         </div>
-    </section>
-    <main>
-        <section id="about" class="about">
-            <div class="container" data-aos="fade-up">
-                <div class="row">
-                    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                        <img src="{{ asset("assets/img/About.png") }}" class="about-img" alt="">
-                    </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right"
-                        data-aos-delay="100">
-                        <div class="section-title">
-                            <h2>About Me</h2>
-                            <p>Who <span>Am I?<span></p>
-                        </div>
-                        <p class="early fs-5">
-                            My name is <b>Shahrukh Shamshad</b>, and I am a passionate data storyteller dedicated to transforming complex datasets into clear, actionable insights. I specialize in analyzing trends, visualizing patterns, and crafting intuitive narratives that drive strategic decision-making. Whether decoding customer behavior, optimizing business processes, or enhancing data-driven strategies, I thrive on turning raw data into meaningful business solutions.
-                            <ul>
-                                <li><b>Profile:</b> Data Science and Data Analytics.</li>
-                                <li><b>Domain:</b> E-commerce & Retail Analytics, Supply Chain & Logistics Analytics, Marketing & Customer Analytics.</li>
-                                <li><b>Education:</b> Master of Science.</li>
-                                <li><b>Language:</b> English, Urdu.</li>
-                                <li><b>Interest:</b> Football, Swimming, Traveling.</li>
-                            </ul>
+    </div>
+    <!-- Breadcrumb Area End -->
+
+    <!-- Tpm Service Area Start -->
+    <section class="service-area tmp-section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="custom-title mb--30 tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        About Me <span><img src="{{ asset('assets/images/custom-line/custom-line.png') }}" alt="custom-line"></span>
+                    </h2>
+                    <div>
+                        <ul class="fw-bold">
+                            <li><h6>Profile:</h6> Data Science and Data Analytics.</li>
+                            <li><h6>Domain:</h6> E-commerce & Retail Analytics, Supply Chain & Logistics Analytics, Marketing & Customer Analytics.</li>
+                            <li><h6>Education:</h6> Master in Mathematics.</li>
+                            <li><h6>Language:</h6> English, Urdu.</li>
+                            <li><h6>Interest:</h6> Football, Swimming, Traveling.</li>
+                        </ul>
+                        <br>
+                        <p class="fw-bold">
+                            This is Shahrukh Shamshad, and I am a passionate data storyteller dedicated to transforming complex datasets into clear, actionable insights. I specialize in analyzing trends, visualizing patterns, and crafting intuitive narratives that drive strategic decision-making. Whether decoding customer behavior, optimizing business processes, or enhancing data-driven strategies, I thrive on turning raw data into meaningful business solutions.
                         </p>
                     </div>
                 </div>
-
             </div>
-        </section>
+        </div>
+    </section>
+    <!-- Tpm Service Area End -->
 
-        <section id="cta" class="cta">
-            <div class="container" data-aos="zoom-in">
+    <!-- tmp skill area start -->
+    <div class="tmp-skill-area tmp-section-gapTop">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="progress-wrapper">
+                        <div class="content">
+                            <h2 class="custom-title mb--30 tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                Technical Skills <span><img src="{{ asset('assets/images/custom-line/custom-line.png') }}" alt="custom-line"></span>
+                            </h2>
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    Programming Languages: Python, R</h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    Database Management Systems: SQL</h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    MS Office: Word, Excel, Access, PowerPoint</h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    Data Visualization Tools: Power BI, Tableau</h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    Version Control: Git and GitHub</h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    Statistical Analysis</h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    Cloud Computing: AWS, Google Cloud, Azure</h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    Machine Learning & AI</h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
 
-                <div class="text-center">
-                    <div class=row>
-                        <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                            data-aos-delay="300">
-                            <div class="icon-box">
-                                <div class="section-title">
-                                    <a href="https://github.com/ShahrukhShamshad" target="_blank">
-                                        <p>call to <span>action</span></p>
-                                    </a>
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    Web Scraping & Data Scraping</h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="progress-wrapper">
+                        <div class="content">
+                            <h2 class="custom-title mb--30 tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                Soft Skills <span><img src="{{ asset('assets/images/custom-line/custom-line.png') }}" alt="custom-line"></span>
+                            </h2>
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    Critical Thinking & Problem-Solving</h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    Analytical Thinking</h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    Attention to Detail & Time Management</h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    Decision-Making
+                                </h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    Storytelling with Data
+                                </h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    Communication & Interpersonal
+                                </h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                            <!-- Start Single Progress Charts -->
+                            <div class="progress-charts">
+                                <h6 class="heading heading-h6">
+                                    Collaboration & Teamwork
+                                </h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="percent-label">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progress Charts -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tmp skill area end -->
+
+    <!-- Tpm Counter Area Start -->
+    <section class="counter-area">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <div class="year-of-expariance-wrapper bg-blur-style-one tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <div class="year-expariance-wrap">
+                            <!-- <h2 class="year-number"><span class="counter">25 </span> </h2> -->
+                            <h2 class="counter year-number"><span class="odometer" data-count="05">00</span>
+                            </h2>
+                            <h3 class="year-title">Years Of <br> experience</h3>
+                        </div>
+                        <p class="year-para">Business consulting consultants provide expert advice and guida the a
+                            businesses to help theme their performance efficiency</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <div class="counter-area-right-content">
+                        <div class="row g-5">
+                            <div class="col-lg-12 col-sm-12 col-12">
+                                <div class="counter-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                    <h3 class="counter counter-title"><span class="odometer" data-count="20">00</span>+
+                                    </h3>
+                                    <p class="counter-para">Our Project Complete</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-sm-12 col-12">
+                                <div class="counter-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-3">
+                                    <h3 class="counter counter-title"><span class="odometer" data-count="15">00</span>+
+                                    </h3>
+                                    <p class="counter-para">Satisfied Client</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                            data-aos-delay="300">
-                            <div class="cta-image">
-                                <a href="{{ route('home') }}"><img src="{{ asset("assets/img/logo/logo.png") }}"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                            data-aos-delay="300">
-                            <div>
-                                <p>
-                                    <strong>+92 (303) 4819561</strong> <br>
-                                    <a href="mail:shahruukh.shamshad3@gmail.com">shahruukh.shamshad3@gmail.com</a>
-                                </p>
-                                <a href="{{ route('contact') }}" class="get-started-btn scrollto">Let's Start</a>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
-
             </div>
-        </section>
-        <section id="about" class="about">
-            <div class="container" data-aos="fade-up">
+        </div>
+    </section>
+    <!-- Tpm Counter Area End -->
+
+    <!-- Tpm Education Experience Area Start -->
+    <section class="education-experience tmp-section-gapTop">
+        <div class="container">
+            <div class="section-head mb--50">
+                <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                    <span class="subtitle">Education & Experience</span>
+                </div>
+                <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">Empowering Creativity
+                    <br> through
+                </h2>
+                <p class="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3">Business consulting
+                    consultants provide expert advice and guida
+                    businesses to help them improve their performance, efficiency, and organizational</p>
+            </div>
+            <h2 class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">Education <span><img
+                        src="{{ asset('assets/images/custom-line/custom-line.png') }}" alt="custom-line"></span>
+            </h2>
+            <div class="row g-5">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <h4 class="edu-sub-title">Mathematics, Master of Science</h4>
+                        <div class="d-flex justify-content-between">
+                            <h2 class="edu-title">Nov 2020 - Apr 2022</h2>
+                            <h2 class="edu-title">University of Sindh</h2>
+                        </div>
+                        <p class="edu-para">
+                            <b>Skills:</b>
+                            <span>Mathematical Modellings</span>,
+                            <span>Statistical Analysis & Probablity</span>,
+                            <span>Optimization Techniques</span>,
+                            <span>Computational Mathematics</span>,
+                            <span>Advance Data Analysis</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <h4 class="edu-sub-title">Science, Bachelors of Science</h4>
+                        <div class="d-flex justify-content-between">
+                            <h2 class="edu-title">Nov 2018 - Apr 2021</h2>
+                            <h2 class="edu-title">University of Sindh</h2>
+                        </div>
+                        <p class="edu-para">
+                            <b>Skills:</b>
+                            <span>Chemistry</span>,
+                            <span>Mathematics</span>,
+                            <span>Physics</span>,
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <h4 class="edu-sub-title">Education, Associate's Degree</h4>
+                        <div class="d-flex justify-content-between">
+                            <h2 class="edu-title">Nov 2016 - Apr 2018</h2>
+                            <h2 class="edu-title">Allama Iqbal Open University</h2>
+                        </div>
+                        <p class="edu-para">
+                            <b>Skills:</b>
+                            <span>Teaching & Instruction</span>,
+                            <span>Educational Phychology</span>,
+                            <span>Curriculum Development</span>,
+                            <span>Classroom Management</span>,
+                            <span>Communication & Presentation</span>,
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <h4 class="edu-sub-title">Civil Engineering, Associate's Degree</h4>
+                        <div class="d-flex justify-content-between">
+                            <h2 class="edu-title">Nov 2015 - Apr 2017</h2>
+                            <h2 class="edu-title">Sindh Board of Technical Education</h2>
+                        </div>
+                        <p class="edu-para">
+                            {{-- <b>Skills:</b>
+                            <span>Teaching & Instruction</span>,
+                            <span>Educational Phychology</span>,
+                            <span>Curriculum Development</span>,
+                            <span>Classroom Management</span>,
+                            <span>Communication & Presentation</span>, --}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="experiences-wrapper">
                 <div class="row">
-                    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                        <div class="about_us">
-                            <p>Technical <span>Skills</span></p>
-                        </div>
-                        <p class="early">
-                            <ul>
-                                <li><b>Programming Languages:</b> Python, R.</li>
-                                <li><b>Database Management Systems:</b> SQL, MySQL, PostgreSQL.</li>
-                                <li><b>Microsoft Office Suite:</b> Word, Excel, Access, PowerPoint</li>
-                                <li><b>Data Visualization Tools:</b> Power BI, Tableau</li>
-                                <li><b>Statistical Analysis & Data Modeling.</b></li>
-                                <li><b>Machine Learning & AI.</b></li>
-                                <li><b>Big Data Technologies:</b> Hadoop, Spark.</li>
-                                <li><b>Version Control:</b> Git, GitHub.</li>
-                                <li><b>Cloud Computing:</b> AWS, Google Cloud, Azure.</li>
-                                <li><b>Data Cleaning & Preprocessing</b>.</li>
-                                <li><b>ETL (Extract, Transform, Load) Processes.</b></li>
-                                <li><b>Web Scraping & APIs (Using BeautifulSoup, Scrapy, and REST APIs).</b></li>
-                            </ul>
-                        </p>
-                    </div>
-                    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                        <div class="about_us">
-                            <p>Soft <span>Skills</span></p>
-                        </div>
-                        <p class="early">
-                            <ul>
-                                <li><b>Analytical Thinking</b></li>
-                                <li><b>Problem-Solving</b></li>
-                                <li><b>Attention to Detail</b></li>
-                                <li><b>Communication & Interpersonal Skills</b></li>
-                                <li><b>Critical Thinking</b></li>
-                                <li><b>Time Management</b></li>
-                                <li><b>Collaboration & Teamwork</b></li>
-                                <li><b>Adaptability & Flexibility</b></li>
-                                <li><b>Storytelling with Data</b></li>
-                                <li><b>Curiosity & Continuous Learning</b></li>
-                                <li><b>Patience & Resilience</b></li>
-                                <li><b>Leadership & People Management</b></li>
-                                <li><b>Emotional Intelligence</b></li>
-                                <li><b>Decision-Making</b></li>
-                                <li><b>Negotiation & Persuasion</b></li>
-                                <li><b>Public Speaking & Presentation Skillst</b></li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
+                    <div class="col-lg-6">
+                        <div class="experiences-wrap-left-content">
+                            <h2 class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">Experiences <span><img
+                            src="{{ asset('assets/images/custom-line/custom-line.png') }}" alt="custom-line"></span></h2>
 
-            </div>
-        </section>
-
-        <section id="cta" class="cta">
-            <div class="container" data-aos="zoom-in">
-
-                <div class="text-center">
-                    <h3>I'm Delivering The Best Customer Experience</h3>
-                    <div class=row>
-                        <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                            data-aos-delay="300">
-                            <div class="icon-box">
-                                <h3><a href="#">My Mission</a></h3>
-                                <p class="early">
-                                    My mission is to unlock the true potential of data by transforming raw numbers into meaningful insights. I am passionate about helping businesses make data-driven decisions that drive growth, efficiency, and innovation. Through advanced analytics, visualization, and predictive modeling, I aim to turn complex data into clear, actionable strategies.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                            data-aos-delay="300">
-                            <div class="icon-box">
-                                <h3><a href="#">My Vision</a></h3>
-                                <p class="early">
-                                    I envision a future where businesses fully utilize data to stay ahead in an ever-evolving world. My goal is to bridge the gap between data and decision-making, providing insights that enhance performance and create new opportunities. With expertise in data analytics, business intelligence, and AI-driven solutions, I strive to make data work smarter for businesses and individuals alike.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <section id="about" class="about">
-            <div class="container" data-aos="fade-up">
-                <div class="row">
-                    <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right"
-                        data-aos-delay="100">
-                        <div class="section-title">
-                            <p><span>Education</span></p>
-                            <hr>
-                        </div>
-                        <p class="early fs-5">
-                            <b class="d-flex align-items-center"><i class='bx bxs-circle fs-6'></i>&nbsp;Master of Science in Mathematics.</b>
-                            <ul>
-                                <li><b>Date:</b> NOV 2020 to APR 2022.</li>
-                                <li><b>Majors:</b> Pure Mathematics, Applied Mathematics, Statistics & Probability, Computational Mathematics, Operations Research.</li>
-                            </ul>
-                        </p>
-                        <p class="early fs-5">
-                            <b class="d-flex align-items-center"><i class='bx bxs-circle fs-6'></i>&nbsp;Bachelor of Science.</b>
-                            <ul>
-                                <li><b>Date:</b> NOV 2020 to APR 2022.</li>
-                                <li><b>Majors:</b> Pure Mathematics, Applied Mathematics, Statistics & Probability, Computational Mathematics, Operations Research.</li>
-                            </ul>
-                        </p>
-                        <p class="early fs-5">
-                            <b class="d-flex align-items-center"><i class='bx bxs-circle fs-6'></i>&nbsp;Associate Degree in Education.</b>
-                            <ul>
-                                <li><b>Date:</b> NOV 2020 to APR 2022.</li>
-                                <li><b>Majors:</b> Pure Mathematics, Applied Mathematics, Statistics & Probability, Computational Mathematics, Operations Research.</li>
-                            </ul>
-                        </p>
-                        <p class="early fs-5">
-                            <b class="d-flex align-items-center"><i class='bx bxs-circle fs-6'></i>&nbsp;Diploma of Associate Engineer.</b>
-                            <ul>
-                                <li><b>Date:</b> NOV 2020 to APR 2022.</li>
-                                <li><b>Majors:</b> Pure Mathematics, Applied Mathematics, Statistics & Probability, Computational Mathematics, Operations Research.</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <section id="cta" class="cta">
-            <div class="container" data-aos="zoom-in">
-                <div class=row>
-                    <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                        data-aos-delay="300">
-                        <div class="icon-box">
-                            <img src="{{ asset("assets/img/ACHIEVEMENT.png") }}" class="milestones-img" alt="">
-
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                        data-aos-delay="300">
-                        <div class="milestones">
-                            <p>Milestones and Achievements</p>
-                            <span class="early">Over the years, we've achieved many important milestones. We've launched
-                                successful websites,
-                                mobile
-                                apps, and software solutions for businesses of all sizes and industries. We've won awards
-                                for
-                                our
-                                work, and we've been recognized as a leader in our industry.
-                                We're proud of the work we've done and the impact we've had on our clients' businesses.
-                                We've
-                                helped
-                                businesses grow their online presence, increase their revenue, and reach new customers.
-                                We've
-                                also
-                                helped businesses adapt to new technologies and stay ahead of the competition.
-                            </span>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <section id="about" class="about">
-            <div class="container" data-aos="fade-up">
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title">
-                            <p><span>Experience</span></p>
-                            <hr>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h4><b>2021 - Present</b></h4>
-                                <p class="fs-5">Senior Data Analyst.</p>
-                                <h6>MERKLE</h6>
-                                <ul>
-                                    <li>Leading a team of 5 data analysts in a global CRM and marketing company with over 10K+ professionals globally. It’s a part of Dentons with 100+ operational countries.</li>
-                                    <li>Analyze company campaigns, clickstream, and customer survey data to identify trends, patterns, and insights.</li>
-                                    <li>Developed strategic product line recommendations, resulting in a 15% increase in sales and marketing budgets, got model performance of 82%.</li>
-                                    <li>Built 18 A/B tests, performed rigorous statistical analysis, led to 20% MoM in the conversion rate.</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <h4><b>2018 - 2021</b></h4>
-                                <p class="fs-5">Senior Data Analyst.</p>
-                                <h6>IQUANTI</h6>
-                                <ul>
-                                    <li>Led a team of 3 data analysts in a digital marketing agency focused on solutions for companies with top 100 global brands.</li>
-                                    <li>Performed in-depth market research and analysis to create online reports, resulting in 100% accurate growth and 30% increase in conversion rate year over year.</li>
-                                    <li>Developed 10+ predictive models using statistical tools like SQL, Excel, Tableau, Power BI, and Python.</li>
-                                    <li>Conducted research and enhancements for merchandising dashboard, involving data integration and its feature improvement.</li>
+                            <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                <p class="ex-subtitle">experience</p>
+                                <h2 class="ex-name">Web Developer (3 Months)</h2>
+                                <div class="d-flex justify-content-between">
+                                    <h3 class="ex-title">AZ Solutions - Internship</h3>
+                                    <h3 class="ex-title">DEC 2023 - FEB 2024</h3>
+                                </div>
+                                <ul class="fw-bold">
+                                    <li class="my-0 ms-5" style="list-style: disc">Designed and developed responsive and user-friendly websites.</li>
+                                    <li class="my-0 ms-5" style="list-style: disc">Tested and debugged web applications to ensure optimal functionality and performance.</li>
+                                    <li class="my-0 ms-5" style="list-style: disc">Implemented web security measures and optimized application performance.</li>
+                                    <li class="my-0 ms-5" style="list-style: disc">Utilized HTML, CSS, JavaScript, and PHP in development tasks.</li>
+                                    <li class="my-0 ms-5" style="list-style: disc">Collaborated on various projects, showcasing attention to detail and a results-driven approach.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-6">
+                        <div class="experiences-wrap-left-content">
+                            <h2 class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">&nbsp;</h2>
 
-                </div>
-        </section>
-        <section id="testimonials" class="testimonials">
-            <div class="container" data-aos="zoom-in">
-
-                <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <img src="{{ asset("assets/img/testimonials/7758_profile.jpg") }}" class="testimonial-img">
-                                <h3>Thepranjalbora</h3>
-
-                                <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                    Communication With the Seller is excellent. But took much longer than first agreed. The
-                                    final product is delivered as asked but the theme is not as expected. We have it done by
-                                    someone else. <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                </p>
+                            <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                <p class="ex-subtitle">experience</p>
+                                <h2 class="ex-name">Mathematics Teacher (1 yr 2 mos)</h2>
+                                <div class="d-flex justify-content-between">
+                                    <h3 class="ex-title">Standard public school - Full-time</h3>
+                                    <h3 class="ex-title">Jan 2022 - Feb 2023</h3>
+                                </div>
+                                <ul class="fw-bold">
+                                    <li class="my-0 ms-5" style="list-style: disc">Taught higher education mathematics, focusing on real-world applications and critical thinking development.</li>
+                                    <li class="my-0 ms-5" style="list-style: disc">Designed and delivered interactive lesson plans to enhance student engagement and comprehension.</li>
+                                    <li class="my-0 ms-5" style="list-style: disc">Implemented problem-solving techniques to help students understand complex mathematical concepts.</li>
+                                    <li class="my-0 ms-5" style="list-style: disc">Provided individualized learning support, ensuring student progress and confidence in mathematics.</li>
+                                    <li class="my-0 ms-5" style="list-style: disc">Integrated modern teaching technologies to create an engaging and effective classroom environment.</li>
+                                    <li class="my-0 ms-5" style="list-style: disc">Developed and conducted student assessments to track performance and optimize teaching strategies.</li>
+                                </ul>
                             </div>
                         </div>
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <img src="{{ asset("assets/img/testimonials/3238_profile.jpg") }}" class="testimonial-img">
-                                <h3>Sharath</h3>
-
-                                <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                    Good in supporting the client needs and delivering things more than agreed. delivered
-                                    all the things which are not discussed earlier. Looking forward to work again. <i
-                                        class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <img src="{{ asset("assets/img/testimonials/6615_profile.jpg") }}" class="testimonial-img">
-                                <h3>Manish Upadhyay</h3>
-
-                                <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                    However, my project took multiple delivery extensions because of its complication. Yet,
-                                    they managed to deliver the results I was expecting from them. They are very supportive
-                                    and solve your issues if you are not satisfied. I will love working again. Recommended
-                                    100% <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                </p>
-                            </div>
-                        </div>
-
-
                     </div>
-                    <div class="swiper-pagination"></div>
                 </div>
-
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+    <!-- Tpm Education Experience Area End -->
+
+    <!-- Tpm Get In touch start -->
+    <section class="get-in-touch-area tmp-section-gapBottom mb-5">
+        <div class="container">
+            <div class="contact-get-in-touch-wrap">
+                <div class="get-in-touch-wrapper tmponhover">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-5">
+                            <div class="section-head text-align-left">
+                                <div class="section-sub-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                    <span class="subtitle">GET IN TOUCH</span>
+                                </div>
+                                <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">Elevate your brand with Me </h2>
+                                <p class="description tmp-scroll-trigger tmp-fade-in animation-order-3">ished fact that a reader will be
+                                    distrol acted bioiiy desig
+                                    ished fact that a reader will acted ished fact that a reader will be distrol
+                                    acted </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="contact-inner">
+                                <div class="contact-form">
+                                    <div id="form-messages" class="error"></div>
+                                    <form class="tmp-dynamic-form" id="contact-form" method="POST" action="{{ route('home') }}product/html/reeni/mailer.php">
+                                        <div class="contact-form-wrapper row">
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input class="input-field" name="name" id="contact-name" placeholder="Your Name" type="text" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input class="input-field" id="contact-phone" placeholder="Phone Number" type="number" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input class="input-field" id="contact-email" name="email" placeholder="Your Email" type="email" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input class="input-field" type="text" id="subject" name="subject" placeholder="Subject">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <textarea class="input-field" placeholder="Your Message" name="message" id="contact-message" required></textarea>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-12">
+                                                <div class="tmp-button-here">
+                                                    <button class="tmp-btn hover-icon-reverse radius-round w-100" name="submit" type="submit" id="submit">
+                                                        <span class="icon-reverse-wrapper">
+                                        <span class="btn-text">Appointment Now</span>
+                                                        <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tpm Get In touch End -->
 @endsection
